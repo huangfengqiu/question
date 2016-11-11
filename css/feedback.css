@@ -1,0 +1,84 @@
+/* 
+* @Author: Marte
+* @Date:   2016-08-12 09:32:03
+* @Last Modified by:   Marte
+* @Last Modified time: 2016-10-26 10:51:45
+*/
+body{ background:#f5f5f5; font-family:'PingFang SC Medium';}
+a{
+border:none;
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+-webkit-tap-highlight-color:transparent;
+outline:none;
+}
+/*header部分*/
+.header_con{ width:7.5rem;height:0.88rem; line-height:0.88rem; background:#07b; color:#fff; text-align:center; position:relative;}
+.header_con h3{ font-weight:normal; font-size:0.32rem;}
+.header_con a{ color:#fff;}
+.header_con .arrow_back{ width:0.23rem; height:0.41rem; background:url(../images/arrow_left_01_03.png) no-repeat; background-size:0.23rem 0.41rem; position:absolute; top:0.24rem;left:0.24rem;}
+.header_con .newAdd{ position:absolute;right:0.24rem; top:0; font-size:0.26rem;}
+
+/*注册成功内容部分*/
+.tip_info{ width:7.02rem; margin:0 auto; background:#fff; margin-top:0.2rem; border-radius:0.08rem; text-align:center; overflow:hidden; padding-bottom:0.6rem;}
+.tip_info i{ width:1.2rem; height:1.2rem;background:url(../images/success_icon_03.png) no-repeat; background-size:1.2rem 1.2rem; display:block; margin:0 auto; padding-bottom:0.2rem; margin-top:0.6rem;}
+.tip_info span{ font-size:0.36rem; color:#333; display:block;}
+
+.btn{width:7.02rem;line-height:0.88rem; margin:0 auto; display:block; border-radius:0.08rem; margin-top:0.2rem; font-size:0.32rem; text-align:center;}
+.ora_btn{ background:#ff9911; color:#fff;}
+.white_btn{ background:#fff;color:#ff9911;}
+
+.explain_info{ width:7.02rem;margin:0 auto; margin-top:0.4rem;}
+/* .explain_info p{ font-size:0.36rem; color:#fff; text-align:center;} */
+.explain_info p img{width:7.02rem;height:2.2rem;}
+
+/*债权转让页面 debts_false单独的class名字*/
+.debts_false .tip_info i{background:url(../images/false_icon_01_03.png) no-repeat;background-size:1.2rem 1.2rem; }
+.debts_false .explain_det,.debts_true .explain_det{ font-size:0.28rem; color:#666666;text-align:center; margin-top:0.37rem;}
+
+/*债权转让 购买成功的页面*/
+.debts_true .quota,.recharge_succ .quota{ font-size:0.24rem; margin-top:0.18rem; color:#666;}
+.debts_true .quota span,.recharge_succ .quota span{ color:#ff9911; display:inline; font-family:'PingFang SC Heavy'; font-size:0.24rem;}
+
+/*充值页面*/
+.recharge_succ .quota{ font-size:0.28rem;}
+.recharge_succ .quota span{ font-size:0.28rem;}
+
+/*开户页面*/
+.openAccount .open_tip{ font-size:0.28rem; color:#666; margin-top:0.36rem; margin-bottom:0.16rem;}
+.openAccount .open_balance{ font-size:0.24rem; color:#666;}
+.openAccount .open_balance span{ display:inline; font-size:0.24rem; color:#ff9911;font-family:'PingFang SC Heavy'; }
+
+/*提现页面*/
+.recharge_succ .expect_time{ font-size:0.24rem; color:#999; margin-top:0.18rem;}
+
+/*产品详情页面*/
+.pro_details .tip_info p{ font-size:0.26rem; padding:0.6rem 0.6rem 0rem 0.6rem; text-indent:2em; color:#333;}
+.pro_details .tip_info{ text-align:left; line-height:0.36rem;}
+
+
+/*详情页面*/
+.details_page{background:#fff;}
+.details_page .header_con{ background:#11bbee;}
+.details_info .tip_info{ text-align:left; background:none;margin-top:0; width:7.5rem; }
+.details_info .tip_info h3{ line-height:0.7rem;font-size:0.28rem;padding-left:0.24rem; padding-right:0.24rem; color:#666; margin-top:0.3rem;}
+.details_info .tip_info p{ font-size:0.28rem;padding-left:0.24rem; padding-right:0.24rem; background:#fff; color:#666; line-height:0.48rem;padding-bottom:0.24rem; text-indent: ;}
+.details_info .tip_info .text_indent{ text-indent:2em;}
+.details_info .tip_info .text_tip{ text-align:center;}
+.product_info li{text-align:center;}
+.product_info li span{ text-align:center; font-size:0.24rem; color:#666; display:block; margin-top:0.2rem; margin-bottom: 0.35rem;}
+.product_info .sfz{ width:4.42rem; height:2.67rem;}
+.product_info .xsz{ width:4.7rem; height:1.82rem;}
+.product_info .dyw{ width:4.45rem; height:3.12rem;}
+
+/*产品详情 已还清*/
+.details_page2 .header_con{ background:#1be;}
+.details_page2 .ora_btn{ background:#1be;}
+.details_page2 .tip_info p{ font-size:0.28rem; color:#666; padding:0.6rem 0.24rem 0rem 0.24rem; line-height:0.48rem;}
+
+
+
+
+
+
+
+
